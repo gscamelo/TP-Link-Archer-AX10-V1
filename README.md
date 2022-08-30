@@ -8,7 +8,9 @@ The device I conducted this research on was the Archer AX10 v1 home WiFi router 
 
 My first approach was to get access via the UART Interface on the board.
 
-You can read about "How to Detect Serial Pinout (GND, VCC, TX, RX)" in this link: https://youtu.be/zjafMP7EgEA?t=110
+You can read about "How to Detect Serial Pinout (GND, VCC, TX, RX)" in this link: 
+https://youtu.be/zjafMP7EgEA?t=110
+
 Thanks, Flashback Team you guys are the inspiration for this PoC.
 
 
