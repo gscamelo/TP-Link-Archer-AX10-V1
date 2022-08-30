@@ -13,9 +13,19 @@ https://youtu.be/zjafMP7EgEA?t=110
 
 Thanks, Flashback Team you guys are the inspiration for this PoC.
 
+I was able to access the board using the USB Uart Cp2102 Interface. 
+For this I used the following UART PINOUT:
 
+<img src="https://raw.githubusercontent.com/gscamelo/TP-Link-Archer-AX10-V1/main/img/02.jpg" width=50% height=50%>
+
+After a successful connection, the next step was to detect the communication baud-rate, playing around with the baud-rates I found that the correct one was: 115200 using minicom.
+
+Useful information was printed to UART Interface when the board is booting, but the most important was the Chip ID: ARM Cortex A7
+
+<img src="https://raw.githubusercontent.com/gscamelo/TP-Link-Archer-AX10-V1/main/img/03.png" width=50% height=50%>
 
 ## Timeline
 
 ## LINKS
+https://www.tp-link.com/br/home-networking/wifi-router/archer-ax10/
 https://www.tp-link.com/br/support/download/archer-ax10/v1/
