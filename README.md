@@ -17,6 +17,7 @@ I was able to access the board using the USB Uart Cp2102 Interface.
 For this I used the following UART PINOUT:
 
 <img src="https://raw.githubusercontent.com/gscamelo/TP-Link-Archer-AX10-V1/main/img/02.jpg" width=50% height=50%>
+<img src="https://raw.githubusercontent.com/gscamelo/TP-Link-Archer-AX10-V1/main/img/05.jpg" width=50% height=50%>
 
 After a successful connection, the next step was to detect the communication baud-rate, playing around with the baud-rates I found that the correct one was: 115200 using minicom.
 
@@ -31,7 +32,9 @@ So I was forced to change the research approach. I downloaded the original devic
 And with the help of Binwalk tool, I was able to extract the Router filesystem.
 
 $ binwalk -e ax10v1-up-ver1-2-4-P1\[20211014-rel54860\]_2021-10-14_19.19.05.bin 
-<img src="https://raw.githubusercontent.com/gscamelo/TP-Link-Archer-AX10-V1/main/img/04.jpg" width=50% height=50%>
+<img src="https://raw.githubusercontent.com/gscamelo/TP-Link-Archer-AX10-V1/main/img/04.png" width=50% height=50%>
+
+
 
 ## Timeline
 
