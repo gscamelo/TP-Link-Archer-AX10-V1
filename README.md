@@ -6,6 +6,12 @@ The device I conducted this research on was the Archer AX10 v1 home WiFi router 
 
 <img src="https://raw.githubusercontent.com/gscamelo/TP-Link-Archer-AX10-V1/main/img/1_normal_1565685514126y.jpeg" width=50% height=50%>
 
+My first approach was to get access via the UART Interface on the board.
+
+You can read about "How to Detect Serial Pinout (GND, VCC, TX, RX)" in this link: https://youtu.be/zjafMP7EgEA?t=110
+Thanks, Flashback Team you guys are the inspiration for this PoC.
+
+
 
 ## Timeline
 
