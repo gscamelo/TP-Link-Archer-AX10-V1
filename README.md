@@ -28,8 +28,7 @@ After a successful connection, the next step was to detect the communication bau
 
 Before connecting find out a port number of your ttl-usb converter, usually it is /dev/ttyUSB0.
 Start minicom and set up port connection.
-minicom -s
-
+`minicom -s`
 Select Serial port setup. Then press A, input /dev/ttyUSB0. Press E set 115200 bps 8N1. After all save it Save setup as dfl.
 
 Leave minicom running, do not pay attention to offline at status line. Despite this input stream will appear on terminal window.
