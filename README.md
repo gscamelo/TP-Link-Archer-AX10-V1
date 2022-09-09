@@ -38,6 +38,7 @@ After some research, I found the same crash reported in CVE-2022-30075.
 It just took some tweaks to the xml file to make it work and get shell.
 All credits to Tomas Melicher aka aaronsvk.
 
+<img src="https://raw.githubusercontent.com/gscamelo/TP-Link-Archer-AX10-V1/main/img/06.png" width=50% height=50%>
 
 ## Timeline
 
