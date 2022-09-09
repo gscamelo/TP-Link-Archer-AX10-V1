@@ -47,10 +47,10 @@ All credits to Tomas Melicher aka aaronsvk.
 
 
 ## LINKS
-https://www.tp-link.com/br/home-networking/wifi-router/archer-ax10/
-https://www.tp-link.com/br/support/download/archer-ax10/v1/
-https://github.com/aaronsvk/CVE-2022-30075
-https://teknoraver.net/software/hacks/tplink/
-https://medium.com/@LargeCardinal/decrypting-config-bin-files-for-tp-link-wr841n-wa855re-and-probably-more-676de396d724
-https://gist.github.com/shreve/7a6413f087c15b233a69bb46edcfec17
-https://github.com/ret5et/tplink_backup_decrypt_2022.bin
++ https://www.tp-link.com/br/home-networking/wifi-router/archer-ax10/
++ https://www.tp-link.com/br/support/download/archer-ax10/v1/
++ https://github.com/aaronsvk/CVE-2022-30075
++ https://teknoraver.net/software/hacks/tplink/
++ https://medium.com/@LargeCardinal/decrypting-config-bin-files-for-tp-link-wr841n-wa855re-and-probably-more-676de396d724
++ https://gist.github.com/shreve/7a6413f087c15b233a69bb46edcfec17
++ https://github.com/ret5et/tplink_backup_decrypt_2022.bin
