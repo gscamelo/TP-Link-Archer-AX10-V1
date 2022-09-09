@@ -34,10 +34,19 @@ And with the help of Binwalk tool, I was able to extract the Router filesystem.
 $ binwalk -e ax10v1-up-ver1-2-4-P1\[20211014-rel54860\]_2021-10-14_19.19.05.bin 
 <img src="https://raw.githubusercontent.com/gscamelo/TP-Link-Archer-AX10-V1/main/img/04.png" width=50% height=50%>
 
+After some research, I found the same crash reported in CVE-2022-30075. It just took some tweaks to the xml file to make it work and get shell.
+
 
 
 ## Timeline
 
++ September 08, 2022 - Vulnerability identified
++ September 09, 2022 - Vulnerability reported
+
+
 ## LINKS
 https://www.tp-link.com/br/home-networking/wifi-router/archer-ax10/
+
 https://www.tp-link.com/br/support/download/archer-ax10/v1/
+
+https://github.com/aaronsvk/CVE-2022-30075
