@@ -33,9 +33,6 @@ Start minicom and set up port connection.
 
 Select Serial port setup. Then press A, input /dev/ttyUSB0. Press E set 115200 bps 8N1. After all save it Save setup as dfl.
 
-Leave minicom running, do not pay attention to offline at status line. Despite this input stream will appear on terminal window.
-Ok, now it’s turn for the router in a nutshell the router should be connecter to PC.
-
 Useful information was printed to UART Interface when the board is booting, but the most important was the Chip ID: ARM Cortex A7
 
 <img src="https://raw.githubusercontent.com/gscamelo/TP-Link-Archer-AX10-V1/main/img/03.png" width=50% height=50%>
