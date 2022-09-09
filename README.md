@@ -10,12 +10,14 @@ My first approach was to get access via the UART Interface on the board.
 
 You can see about "How to Detect Serial Pinout (GND, VCC, TX, RX)" in this link: 
 https://youtu.be/zjafMP7EgEA?t=110
-`
+
+```
 RouterConverter
 TX	RX
 RX	TX
 GND	GND
-`
+```
+
 Thanks, Flashback Team you guys are the inspiration for this PoC.
 
 I was able to access the board using the USB Uart Cp2102 Interface. 
