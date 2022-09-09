@@ -11,6 +11,11 @@ My first approach was to get access via the UART Interface on the board.
 You can see about "How to Detect Serial Pinout (GND, VCC, TX, RX)" in this link: 
 https://youtu.be/zjafMP7EgEA?t=110
 
+RouterConverter
+TX	RX
+RX	TX
+GND	GND
+
 Thanks, Flashback Team you guys are the inspiration for this PoC.
 
 I was able to access the board using the USB Uart Cp2102 Interface. 
@@ -20,6 +25,15 @@ For this I used the following UART PINOUT:
 <img src="https://raw.githubusercontent.com/gscamelo/TP-Link-Archer-AX10-V1/main/img/05.jpg" width=50% height=50%>
 
 After a successful connection, the next step was to detect the communication baud-rate, playing around with the baud-rates I found that the correct one was: 115200 using minicom.
+
+Before connecting find out a port number of your ttl-usb converter, usually it is /dev/ttyUSB0.
+Start minicom and set up port connection.
+minicom -s
+
+Select Serial port setup. Then press A, input /dev/ttyUSB0. Press E set 115200 bps 8N1. After all save it Save setup as dfl.
+
+Leave minicom running, do not pay attention to offline at status line. Despite this input stream will appear on terminal window.
+Ok, now it’s turn for the router in a nutshell the router should be connecter to PC.
 
 Useful information was printed to UART Interface when the board is booting, but the most important was the Chip ID: ARM Cortex A7
 
