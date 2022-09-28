@@ -1,5 +1,5 @@
 # TP-Link-Archer-AX10-V1
-A proof of concept for TP-LINK router Archer AX10 v1
+A proof of concept for TP-LINK router Archer AX10 v1 - CVE-2022-40486
 
 ## Intro
 The device I conducted this research on was the Archer AX10 v1 home WiFi router from TP-Link (Firmware Version 1.3.1 Build 20220401 Rel. 57450(5553)).
@@ -68,3 +68,4 @@ All credits to Tomas Melicher aka aaronsvk.
 + https://medium.com/@LargeCardinal/decrypting-config-bin-files-for-tp-link-wr841n-wa855re-and-probably-more-676de396d724
 + https://gist.github.com/shreve/7a6413f087c15b233a69bb46edcfec17
 + https://github.com/ret5et/tplink_backup_decrypt_2022.bin
++ https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40486
