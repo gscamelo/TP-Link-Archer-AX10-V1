@@ -45,7 +45,8 @@ So I was forced to change the research approach. I downloaded the original devic
 
 And with the help of Binwalk tool, I was able to extract the Router filesystem.
 
-$ binwalk -e ax10v1-up-ver1-2-4-P1\[20211014-rel54860\]_2021-10-14_19.19.05.bin 
+`$ binwalk -e ax10v1-up-ver1-2-4-P1\[20211014-rel54860\]_2021-10-14_19.19.05.bin`
+
 <img src="https://raw.githubusercontent.com/gscamelo/TP-Link-Archer-AX10-V1/main/img/04.png" width=50% height=50%>
 
 After some research, I realized that the same approach reported in CVE-2022-30075 works like a charm.
@@ -58,7 +59,7 @@ All credits to Tomas Melicher aka aaronsvk.
 
 + September 08, 2022 - Vulnerability identified
 + September 09, 2022 - Vulnerability reported
-
++ September 28, 2022 - Assigned CVE
 
 ## LINKS
 + https://www.tp-link.com/br/home-networking/wifi-router/archer-ax10/
