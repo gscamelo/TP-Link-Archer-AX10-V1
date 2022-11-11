@@ -57,10 +57,12 @@ All credits to Tomas Melicher aka aaronsvk.
 
 ## Timeline
 
-+ September 08, 2022 - Vulnerability identified
++ September 08, 2022 - Identified vulnerability
 + September 09, 2022 - Vulnerability reported
 + September 28, 2022 - Assigned CVE
-
++ October   11, 2022 - Recieved response from Tp-Link
++ November  08, 2022 - Tp-Link released firmware with fixed vulnerability (version 221103)
+ 
 ## LINKS
 + https://www.tp-link.com/br/home-networking/wifi-router/archer-ax10/
 + https://www.tp-link.com/br/support/download/archer-ax10/v1/
